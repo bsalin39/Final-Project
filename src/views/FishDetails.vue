@@ -48,6 +48,8 @@ onMounted(async () => {
         </router-link>
     </div>
 </template>
+
+<style scoped lang ="postcss">
 .details {
     width: 400px;
     padding: 15px;
@@ -56,37 +58,33 @@ onMounted(async () => {
     border-radius: 15px;
     margin-left: 50%;
     transform: translateX(-50%);
-    caret-color: transparent;}
+    caret-color: transparent;
+}
 
-    img {
-        width: 160px;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        border: 1px solid #000;
-        border-radius: 20px;
-        padding: 10px 20px;
-        margin-bottom: 10px;
-    }
+img {
+    width: 160px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
 
-    .mb30 {
-        margin-bottom: 30px;
-    }
+.mb30 {
+    margin-bottom: 30px;
+}
 
-    .back {
-        width: 80px;
-        border: 1px solid #000;
-        border-radius: 10px;
-        padding: 5px 10px;
-        margin-left: 40%;
-        margin-top: 40px;
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-        .hover {
-            background-color: rgba(255, 71, 5, 0.726);
-            color: #fff;
-        }
-
+.back {
+    width: 80px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 40%;
+    margin-top: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 </style>

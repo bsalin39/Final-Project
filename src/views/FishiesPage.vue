@@ -52,11 +52,6 @@ onMounted(() => {
     background-color: rgba(240, 248, 255, 0.7);
 }
 
-.hover {
-    transform: scale(1.05);
-    background-color: rgb(240, 248, 255);
-}
-
 .image {
     height: 80px;
     margin-bottom: 10px;

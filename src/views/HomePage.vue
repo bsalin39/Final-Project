@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="postcss">
 .container {
   display: flex;
   flex-direction: column;

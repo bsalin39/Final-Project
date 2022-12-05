@@ -37,7 +37,7 @@ onMounted(async () => {
         <router-link to="/art" class="back">Back</router-link>
     </div>
 </template>
-<style scoped lang="css">
+<style scoped lang="postcss">
 .details {
     width: 400px;
     padding: 15px;
@@ -74,10 +74,5 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.hover {
-    background-color: rgba(255, 71, 5, 0.726);
-    color: #fff;
 }
 </style>
