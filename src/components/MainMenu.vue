@@ -22,6 +22,9 @@ function handleSelection(index) {
         <p class="button-wrapper" @click="handleSelection(3)">
             <RouterLink class="menu-button" to="/art">Art</RouterLink>
         </p>
+        <p class="button-wrapper" @click="handleSelection(0)">
+            <RouterLink class="menu-button" to="/login">Login</RouterLink>
+        </p>
     </div>
 </template>
 

@@ -1,7 +1,5 @@
 <script setup>
 import MainMenu from '@/components/MainMenu.vue'
-//import FishiesPage from '@/components/FishiesPage.vue'
-// script stuff @layer h-screen background-color:(from-green-200  via-green-300 to-blue-500); ;
 </script>
 
 <template>
