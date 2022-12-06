@@ -37,14 +37,15 @@ onMounted(async () => {
 </template>
 <style scoped lang ="postcss">
 .details {
-    width: 400px;
-    padding: 15px;
+    width: 600px;
+    padding: 30px;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
     margin-left: 50%;
     transform: translateX(-50%);
     caret-color: transparent;
+    font-size: 20px;
 }
 
 img {

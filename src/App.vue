@@ -16,7 +16,7 @@ import MainMenu from '@/components/MainMenu.vue'
 
 <style lang="css" scoped>
 .logo {
-  font-size: 28px;
+  font-size: 60px;
   padding-top: 10px;
   text-align: center;
 }
@@ -27,7 +27,8 @@ import MainMenu from '@/components/MainMenu.vue'
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(30px);
   padding-bottom: 50px;
+  opacity: 0.7;
 }
 </style>

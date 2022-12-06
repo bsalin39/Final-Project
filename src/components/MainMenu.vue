@@ -28,7 +28,7 @@ function handleSelection(index) {
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="postcss">
 .menu {
     padding: 20px;
     display: flex;
@@ -53,6 +53,7 @@ function handleSelection(index) {
         transition: all 0.25s;
         cursor: pointer;
         caret-color: transparent;
+
 
         &:hover,
         &:active {
